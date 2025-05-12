@@ -251,7 +251,271 @@
         <p>✉ البريد الإلكتروني: <a href="mailto:ALMAMORRA23@GMAIL.COM">ALMAMORRA23@GMAIL.COM</a></p>
       </div>
       <a class="contact-button" href="https://wa.me/966576760687" target="_blank">تواصل معنا عبر واتساب</a>
-      <a class="facebook-button" href="https://www.facebook.com/share/16BkxYBRmw/" target="_blank">تابعنا على فيسبوك</a>
+      <a class="facebook-button" href="https://www.facebook.com/share/19gJZJ5aex/" target="_blank">تابعنا على فيسبوك</a>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('enter-button').addEventListener('click', function() {
+      document.getElementById('splash').style.display = 'none';
+      document.getElementById('main-content').style.display = 'block';
+    });
+  </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>شركة المعمورة المتطورة للمقاولات العامة</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    #splash {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: #007bff;
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      z-index: 10;
+      text-align: center;
+      padding: 20px;
+    }
+    #enter-button {
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      background-color: #fff;
+      color: #007bff;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 30px;
+    }
+    #enter-button:hover { background-color: #e0e0e0; }
+    #main-content {
+      display: none;
+      position: relative;
+      height: 100%;
+      text-align: center;
+      overflow: auto;
+    }
+    header {
+      background-color: rgba(0, 123, 255, 0.9);
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      color: #fff;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: right;
+      line-height: 1.6;
+    }
+    main h2 {
+      color: #007bff;
+      margin-bottom: 15px;
+      font-size: 24px;
+      border-bottom: 2px solid #007bff;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    main p { margin-bottom: 20px; font-size: 18px; }
+    .services ul {
+      list-style: inside disc;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    .services li { margin-bottom: 10px; font-size: 17px; }
+    .projects { margin-top: 40px; }
+    .projects-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .project-card {
+      width: 280px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .project-card div {
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    footer {
+      background-color: rgba(0, 123, 255, 0.9);
+      padding: 25px 20px;
+      color: #fff;
+      font-size: 18px;
+    }
+    .footer-details {
+      max-width: 900px;
+      margin: 0 auto 15px;
+      text-align: right;
+      line-height: 1.6;
+    }
+    .footer-details a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .contact-button, .facebook-button {
+      display: inline-block;
+      margin: 10px 10px 0;
+      padding: 12px 25px;
+      font-size: 18px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .contact-button { background-color: #28a745; color: #fff; }
+    .facebook-button { background-color: #3b5998; color: #fff; }
+  </style>
+</head>
+<body>
+  <div id="splash">
+    <div>مرحباً بكم في الموقع الرسمي لشركة المعمورة المتطورة للمقاولات العامة</div>
+    <button id="enter-button">دخول الموقع</button>
+  </div>
+
+  <div id="main-content">
+    <header>شركة المعمورة المتطورة للمقاولات العامة</header>
+
+    <main>
+      <section class="intro">
+        <h2>من نحن</h2>
+        <p>نحن شركة مقاولات عامه متخصصه في أعمال المقاولات إنشاء وصيانه المباني المتميزة وأعمال الديكور الداخليه والخارجيه وكذالك اعمال الأخشاب والتجاليد الداخليه واعمال الطرق والكباري.</p>
+ <h2>يسرنا في شركة المعمورة المتطورة للمقاولات أن نقدم لكم خدماتنا.<h2>
+      </section>
+
+      <section class="services">
+        <h2>خدماتنا</h2>
+        <ul>
+          <li><strong>التشطيبات المتكاملة</strong>: تنفيذ جميع أعمال التشطيبات الداخلية والخارجية بأعلى المعايير.</li>
+          <li><strong>الأعمال المعدنية</strong>: تصنيع وتركيب الهياكل المعدنية بكافة أنواعها وفق أحدث التقنيات.</li>
+          <li><strong>الديكورات المعدنية</strong>: تصميم وتنفيذ أعمال الديكور المعدني الفاخر الذي يضفي لمسة عصرية.</li>
+          <li><strong>الأعمال الخشبية والتجاليد</strong>: تصميم وتنفيذ أعمال الأخشاب والتجاليد الداخلية.</li>
+        </ul>
+      </section>
+
+      <section class="projects">
+        <h2>أعمال تم تنفيذها</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="project1.png" alt="مشروع 1">
+            <div>مشروع رقم 1</div>
+          </div>
+          <div class="project-card">
+            <img src="project2.png" alt="مشروع 2">
+            <div>مشروع رقم 2</div>
+          </div>
+          <div class="project-card">
+            <img src="project3.png" alt="مشروع 3">
+            <div>مشروع رقم 3</div>
+          </div>
+          <div class="project-card">
+            <img src="project4.png" alt="مشروع 4">
+            <div>مشروع رقم 4</div>
+          </div>
+          <div class="project-card">
+            <img src="project5.png" alt="مشروع 5">
+            <div>مشروع رقم 5</div>
+          </div>
+          <div class="project-card">
+            <img src="project6.png" alt="مشروع 6">
+            <div>مشروع رقم 6</div>
+          </div>
+          <div class="project-card">
+            <img src="project7.png" alt="مشروع 7">
+            <div>مشروع رقم 7</div>
+          </div>
+          <div class="project-card">
+            <img src="project8.png" alt="مشروع 8">
+            <div>مشروع رقم 8</div>
+          </div>
+          <div class="project-card">
+            <img src="project9.png" alt="مشروع 9">
+            <div>مشروع رقم 9</div>
+          </div>
+          <div class="project-card">
+            <img src="project10.png" alt="مشروع 10">
+            <div>مشروع رقم 10</div>
+          </div>
+          <div class="project-card">
+            <img src="project11.png" alt="مشروع 11">
+            <div>مشروع رقم 11</div>
+          </div>
+          <div class="project-card">
+            <img src="project12.png" alt="مشروع 12">
+            <div>مشروع رقم 12</div>
+          </div>
+          <div class="project-card">
+            <img src="project13.png" alt="مشروع 13">
+            <div>مشروع رقم 13</div>
+          </div>
+          <div class="project-card">
+            <img src="project14.png" alt="مشروع 14">
+            <div>مشروع رقم 14</div>
+          </div>
+          <div class="project-card">
+            <img src="project15.png" alt="مشروع 15">
+            <div>مشروع رقم 15</div>
+          </div>
+          <div class="project-card">
+            <img src="project16.png" alt="مشروع 16">
+            <div>مشروع رقم 16</div>
+          </div>
+          <div class="project-card">
+            <img src="project17.png" alt="مشروع 17">
+            <div>مشروع رقم 17</div>
+          </div>
+          <div class="project-card">
+            <img src="project18.png" alt="مشروع 18">
+            <div>مشروع رقم 18</div>
+          </div>
+          <div class="project-card">
+            <img src="project19.png" alt="مشروع 19">
+            <div>مشروع رقم 19</div>
+          </div>
+          <div class="project-card">
+            <img src="project20.png" alt="مشروع 20">
+            <div>مشروع رقم 20</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-details">
+        <p>📍 العنوان: الرياض الملز برج غرناطة التجاري، طريق صلاح الدين الأيوبي</p>
+        <p>⏰ أوقات العمل: من 8 صباحاً إلى 5 مساءً (السبت–الخميس)</p>
+        <p>📞 الهاتف: 0578214294 – 0576760687</p>
+        <p>✉ البريد الإلكتروني: <a href="mailto:ALMAMORRA23@GMAIL.COM">ALMAMORRA23@GMAIL.COM</a></p>
+      </div>
+      <a class="contact-button" href="https://wa.me/966576760687" target="_blank">تواصل معنا عبر واتساب</a>
+      <a class="facebook-button" href="https://www.facebook.com/share/19gJZJ5aex/" target="_blank">تابعنا على فيسبوك</a>
     </footer>
   </div>
 
